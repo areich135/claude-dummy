@@ -13,7 +13,9 @@
 .catalog .results-column .split-buttons{grid-column:2/4;justify-self:start;margin:0}
 .catalog .results-column .row-icons{grid-column:4/6;justify-self:end;margin:0}
 @container (min-width:730px){
-  .catalog .results-column .row-main{grid-template-columns:70px minmax(120px,1.4fr) 62px 62px 76px 158px 100px;column-gap:10px}
+  .catalog .results-column .row-main{grid-template-columns:70px minmax(120px,1.4fr) 62px 62px 76px 172px 96px;column-gap:10px}
+  .catalog .results-column .split-buttons{width:100%}
+  .catalog .results-column .split-buttons button{flex:1;justify-content:center;min-width:0}
   .catalog .results-column .product-photo{grid-row:auto}
   .catalog .results-column .product-photo img{width:70px;height:88px}
   .catalog .results-column .split-buttons,.catalog .results-column .row-icons{grid-column:auto}
@@ -29,6 +31,8 @@
 
 /* Muster/Angebot-Button: Zustand „auf der Liste" */
 .split-buttons button{display:inline-flex;align-items:center;gap:4px}
+.catalog .results-column .split-buttons{font-size:13px}
+.catalog .results-column .split-buttons button{padding:7px 9px;white-space:nowrap}
 .split-buttons button.in-list{background:var(--pink);color:#fff}
 .split-buttons svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2.6}
 
