@@ -1,3 +1,4 @@
 [
-  { "id": "v1", "datum": "2026-10-09", "notiz": "Startstand: ChatGPT-V2 übernommen" }
+  { "id": "v1", "datum": "2026-10-09", "notiz": "Startstand: ChatGPT-V2 übernommen" },
+  { "id": "v2", "datum": "2026-10-09", "notiz": "Sticky-Listen Angebote/Muster/Merkliste (Prinzip united-domains)" }
 ]

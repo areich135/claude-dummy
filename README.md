@@ -11,6 +11,7 @@ Umschalter oben links (Liste aus `versions.json`), Direktlink: `?version=v1`. Di
 | Version | Datum | Änderungen |
 |---|---|---|
 | V1 | 2026-10-09 | Startstand: ChatGPT-V2 aus `areich135/GPT` 1:1 übernommen (Filter-Icons, einklappbarer Filter, Boden/Rand-Modal) |
+| V2 | 2026-10-09 | Sticky-Spalte rechts mit **Ihre Angebote / Ihre Muster / Ihre Merkliste** (Prinzip united-domains): Muster/Angebot/Herz an der Zeile setzen den Artikel auf die Liste (Haken im Button), aus der Merkliste per Icon zu Muster/Angebot verschieben, × entfernt, „Angebot anfragen"/„Muster anfordern" öffnen das Formular mit allen Listenartikeln. Sammel-Buttons unter der Liste befüllen die Listen. Artikelspalte endet bündig mit den Hero-Kästen, Zeilen passen sich der Breite an (kein Abschneiden mehr, Spalten bündig). Farbnamen im Filter brechen am „/" statt mitten im Wort. Tablet/Mobil: Listen als Karten über dem Katalog. |
 
 ## Neue Version anlegen
 
